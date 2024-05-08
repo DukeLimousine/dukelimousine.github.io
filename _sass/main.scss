@@ -1,0 +1,25 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  @media (min-width: $medium) {
+    max-width: 100px;
+  }
+}
+.button-style {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    width: 90%;
+  }
+
+  .button-style:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  
