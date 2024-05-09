@@ -72,6 +72,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 4rem;
     .logo {
       width: 320px;
       @include breakpoint(medium) {
@@ -80,8 +81,14 @@ html {
     }
   }
 
+    html,
     body {
-      height: 100vh;
+      height: 100%;
+      min-height: 100%;
+    }
+
+    body {
+
       background-image: url('/assets/images/bg_mobile.png');
       background-size: cover;
       background-repeat: no-repeat;
