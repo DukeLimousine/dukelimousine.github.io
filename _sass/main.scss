@@ -83,8 +83,9 @@ html {
 
     html,
     body {
-      height: 100vh;
+      height: 100%;
       min-height: 100%;
+      margin: 0;
     }
 
     body {
@@ -92,7 +93,8 @@ html {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      overflow: hidden;
+      position: relative;
+      background-attachment: fixed;
     }
   
     @include breakpoint(medium) {
@@ -104,11 +106,11 @@ html {
     body::after {
       content: "";
       background: rgba(255, 255, 255, 0.3);
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      height: 100vh;
+      height: 100%;
       z-index: -1;
     }
 
