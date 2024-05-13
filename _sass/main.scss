@@ -89,7 +89,7 @@ html {
     }
 
     body {
-      background-image: url('/assets/images/bg_mobile.png');
+      background-image: url('../images/bg_mobile.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -99,10 +99,10 @@ html {
   
     @include breakpoint(medium) {
       body {
-        background-image: url('/assets/images/bg.png');
+        background-image: url('../images/bg.png');
       }
     }
-    
+
 
     body::after {
       content: "";
