@@ -53,9 +53,11 @@ html {
 .button-style {
     background-color: black;
     color: white;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 10px 20px;
     text-decoration: none;
+    text-transform: uppercase;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s;
     text-align: center;
@@ -89,7 +91,7 @@ html {
     }
 
     body {
-      background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../images/bg_mobile.png');
+      background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/JackalArtOnlySmallerMobile.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -99,7 +101,8 @@ html {
   
     @include breakpoint(medium) {
       body {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../images/bg.png');
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/JackalArtOnlySmaller.jpg');
+        background-position: top;
       }
     }
 

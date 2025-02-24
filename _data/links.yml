@@ -1,10 +1,10 @@
 links:
-  - text: "Last Exit Interview"
-    href: "https://youtu.be/UMTn7hvHI20?feature=shared"
-  - text: "Last Exit Live"
-    href: "https://www.youtube.com/live/EBoolgtV4kA?feature=shared"
-  - text: "Ortlieb's Livestream"
-    href: "https://www.twitch.tv/videos/2150231294"
+  # - text: "Last Exit Interview"
+  #   href: "https://youtu.be/UMTn7hvHI20?feature=shared"
+  # - text: "Last Exit Live"
+  #   href: "https://www.youtube.com/live/EBoolgtV4kA?feature=shared"
+  # - text: "Ortlieb's Livestream"
+  #   href: "https://www.twitch.tv/videos/2150231294"
   - text: "Bandcamp"
     href: "https://highcouncil.bandcamp.com/"
   - text: "Spotify"
@@ -19,4 +19,6 @@ links:
     href: "https://www.tiktok.com/@highcouncilband"
   - text: "YouTube"
     href: "https://www.youtube.com/@highcouncilband"
+  # - text: "Cruel & Unusual Video"
+  #   href: "https://youtu.be/RgaELjcjxQs"
 
