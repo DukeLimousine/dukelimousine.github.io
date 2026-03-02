@@ -21,10 +21,10 @@
 title: High Council
 email: highcouncil@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  High Council link tree
+  A link tree for the music and merchandise of High Council, the world's premier traditional heavy metal band.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "https://highcouncil.us/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:
 github_username:  jekyll
 
 # Build settings
